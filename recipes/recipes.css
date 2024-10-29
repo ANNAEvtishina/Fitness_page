@@ -124,3 +124,22 @@ body {
     bottom: 0;
     width: 100%;
   }
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    text-align: center;
+  }
+   
+  .gallery__img {
+    width: 100px;
+    height: auto;
+    cursor: pointer;
+    padding: 10px;
+  }
+  .information {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
