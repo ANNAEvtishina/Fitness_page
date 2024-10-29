@@ -126,24 +126,23 @@ body {
     width: 100%;
   }
 
-  .container{
+  .container {
     display: grid;
     grid-template-columns: repeat(3, 3fr);
     grid-template-rows: repeat(2,1fr);
     background-color: rgb(100, 203, 120);
-    justify-content: stretch;
+    justify-content:stretch;
     align-self: stretch;
     row-gap: 10px;
-    border: 20px;
+    border: 30px;
+    align-items:stretch;
+  }
 
-}
 .container__img {
-
     width: 30%;
     height: auto;
     border-radius: 20px;
     margin-left: 20px;
-
 }
 
 .head_trainer{
@@ -158,5 +157,22 @@ body {
 
 .title_container_trainer{
   text-align: center;
+}
+.title_container_trainer:before{
+  content:"🥑";
+  
+
+  
+}
+.text_container_trainer{
+ font-family: 'Times New Roman', Times, serif;
+ font-size: medium;
+ text-align:justify;
+
+
+}
+.head_trainer{
+  font-family: 'Times New Roman', Times, serif;
+  
   
 }
