@@ -63,7 +63,7 @@ body {
     display: block;
   }
   
-  /* Основные стили для страницы "Обо мне" */
+  /* Основные стили для страницы*/
   .about-container {
     max-width: 1200px;
     margin: 0 auto;
@@ -115,12 +115,48 @@ body {
     font-size: 18px;
   }
   
-  footer {
+  .footer {
     text-align: center;
-    padding: 20px;
+    padding: 0px;
+    margin-top: 20px;
     background-color:rgb(15, 99, 27);
     color: #fff;
     position: fixed;
     bottom: 0;
     width: 100%;
   }
+
+  .container{
+    display: grid;
+    grid-template-columns: repeat(3, 3fr);
+    grid-template-rows: repeat(2,1fr);
+    background-color: rgb(100, 203, 120);
+    justify-content: stretch;
+    align-self: stretch;
+    row-gap: 10px;
+    border: 20px;
+
+}
+.container__img {
+
+    width: 30%;
+    height: auto;
+    border-radius: 20px;
+    margin-left: 20px;
+
+}
+
+.head_trainer{
+  display: flex;
+  margin-top: 30px;
+
+}
+
+.head_trainer_title {
+  text-align: center;
+}
+
+.title_container_trainer{
+  text-align: center;
+  
+}
