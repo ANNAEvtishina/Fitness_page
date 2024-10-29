@@ -138,11 +138,12 @@ body {
     }
     .header__link {
     color: #fff;
+    font-size: large;
     text-decoration: none;
     margin-left: 15px;
     }
     .header__link:hover {
-    color: #ff0000;
+    color: #5ed2ad;
     }
     
     .content {
@@ -195,3 +196,23 @@ content:"💪" ;
     .footer__cont :hover{
         color: #ff0000;
     }
+    .c-button {
+    display: inline-block; /* Строчно-блочный элемент */
+    background: #2a7958; /* Серый цвет фона */
+    color: #fff; /* Белый цвет текста */
+    font-size: large;
+    padding: 1rem 1.5rem; /* Поля вокруг текста */
+    text-decoration: none; /* Убираем подчёркивание */
+    border-radius: 10px; /* Скругляем уголки */
+    width: 100%; /* Ширина кнопки */
+    height: 100%;
+   }
+   .c-button:before {
+    content: "🥑";
+    
+}
+
+.c-button:hover {
+  background-color: #82d9a9;
+  
+}
