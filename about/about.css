@@ -117,10 +117,29 @@ body {
   
   footer {
     text-align: center;
-    padding: 20px;
+    padding: 0px;
     background-color: rgb(15, 99, 27);
     color: #fff;
     position: fixed;
     bottom: 0;
     width: 100%;
+  }
+  .trainer_people {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    text-align: center;
+  }
+   
+  .trainer_people_img {
+    width: 130px;
+    height: auto;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 50px;
+  }
+  .text_bolt {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large ;
+    font-weight: bold;
   }
