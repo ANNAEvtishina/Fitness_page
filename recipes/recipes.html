@@ -65,29 +65,21 @@
          <img class="gallery__img" src="../recipes/img_recipes/ultimate-combination-.jpg" alt="ultimate-combination-">
          <img class="gallery__img" src="../recipes/img_recipes/plate-food.jpg" alt="plate-food">
         </div>
-  
-  <div class="information">
-    <h1>Оставляйте отзывы и делитесь своими рецептами</h1>
-  <form action="" method="get"></form>
-      <label class="information__name">
-          Ваше имя:
-          <input
-              type="text"
-              name="name">
-      </label>
-      <label class="information__mail">
-          Электронная почта:
-          <input
-              type="email"
-              name="email">
-      </label>
-      <label class="information__comment">
-          Отзыв:
-          <textarea name="comment"></textarea>
-      </label>
-      <button type="submit" class="information__button">
-          Отправить
-      </button>
+  <div class="form_reviews">
+    <h2>Оставте свой отзыв </h2>
+        <form method="POST" action="process.php">
+    
+          <label for="name">Имя:</label>
+          <input type="text" name="name" id="name" required><br>
+      
+          <label for="review">Ваш отзыв:</label>
+          <textarea name="review" id="review" required></textarea><br>
+          <label for="rating">Оценка (1-5):</label>
+          <input type="number" name="rating" id="rating" min="1" max="5" required><br>
+      
+          <input type="submit" value="Отправить">
+      </form>  
+  </div>
   </form>
   </div>
   

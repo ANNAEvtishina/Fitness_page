@@ -143,3 +143,10 @@ body {
     justify-content: center;
     align-items: center;
   }
+
+  .form_reviews{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    
+  }
