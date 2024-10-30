@@ -5,3 +5,4 @@ const menu = document.querySelector('.menu');
 burgerMenu.addEventListener('click', () => {
     menu.classList.toggle('active');
 });
+
